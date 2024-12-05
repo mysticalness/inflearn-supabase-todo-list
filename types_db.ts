@@ -12,24 +12,24 @@ export type Database = {
       todo: {
         Row: {
           completed: boolean
-          create_at: string
+          created_at: string
           id: number
           title: string
-          update_at: string | null
+          updated_at: string | null
         }
         Insert: {
           completed: boolean
-          create_at?: string
+          created_at?: string
           id?: number
           title: string
-          update_at?: string | null
+          updated_at?: string | null
         }
         Update: {
           completed?: boolean
-          create_at?: string
+          created_at?: string
           id?: number
           title?: string
-          update_at?: string | null
+          updated_at?: string | null
         }
         Relationships: []
       }
